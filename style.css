@@ -1,0 +1,31 @@
+.bat{
+
+  transition-property: transform;
+  transition-duration:1.1s;
+  transition-timing-function: ease-in-out;
+  
+}
+.animation:hover .bat{
+  transform: rotate(-60deg);
+  transform-origin: 50% 0% ;
+}
+
+.ball{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(190, 3, 3);
+  border-radius: 50%;
+  position: relative;
+  left: 400px;
+  bottom: 150px;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function:linear;
+  transition-delay: .4s;
+  border: 2px solid rgb(107, 27, 27);
+  
+}
+
+.animation:hover .ball{
+  transform: translate(1200px,-200px);
+}
